@@ -28,7 +28,7 @@ const Header = () => {
             </div>
             <div className="header_search">
                 <input className='header_searchInput' type="text" />
-                <SearchIcon className='header_searchIcon' onClick={()=>alert('Coming Soon....')}/>
+                <SearchIcon className='header_searchIcon' onClick={()=>toast.info("Coming soon")}/>
             </div>
 
             <div className="header_nav">
